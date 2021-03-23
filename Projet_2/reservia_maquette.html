@@ -12,21 +12,15 @@
             <header>
                 <div id="logo">
                     <img src="IMG/logo/Reservia.svg" alt="logo de Reservia" a href="../index.html" >
-                    <h1> Reservia</h1> <!-- à modifier , demander au mentor si il faut mettre h1 pour le nom du site-->
                 </div>
-                <nav>
-                    <ul>
-                        <li> 
-                            <a href="#Hebergement">Hébergement </a>
-                        </li>
-                        <li>
-                           <a href="#Activites">Activités </a>
-                        </li>
-                        <li>
-                            <a href="#">S'inscrire </a> <!-- a demander si dans le nav-->
-                        </li>
-                    </ul>
+                <nav id="nav_block">
+                    <a id="hebergement_nav" href="#Hebergement">Hébergement </a>
+                    <a id="activités_nav" href="#Activites">Activités </a>
+
                 </nav>
+                <div id="inscrire">
+                    <a href="#">S'inscrire </a> 
+                </div>
             </header>
             <section>
                 <article>
@@ -36,7 +30,7 @@
                     </div>
                     <div id="recherche">
                         <form method="POST" action="recherche.php">
-                                <input type="text" name="recherche" placeholder="Marseille, France" size="20" maxlength="120" /> <!-- demander type precis ?-->
+                                <input type="text" name="recherche" placeholder="Marseille, France" size="20" maxlength="120" /> 
                                 <input type="image" src="IMG/symbols/rechercher_button.PNG" />
                         </form>
                     </div>
@@ -57,34 +51,59 @@
                 <article>
                     <div id="Hebergement">
                         <h1>Hébergements à marseille </h1>
-                        <P>Auberge de la Cannebière Nuit à partir de 25&euro;
-                        Hôtel du port Nuit à partir de 52&euro;
-                        Hôtel Les mouettes Nuit à partir de 76&euro;
-                        Hôtel de la mer Nuit à partir de 46&euro;
-                        Auberge Le panier Nuit à partir de 23&euro;
-                        Hôtel chez Amina Nuit à partir de 96&euro;
-                        </P>
-                        <p>Afficher plus
-                        </p>
+                            <a class="hebergement_carte" href="#" >
+                                Auberge de la Cannebière Nuit à partir de 25&euro;
+                            </a>
+                            <a class="hebergement_carte" href="#" >
+                                Hôtel du port Nuit à partir de 52&euro;
+                            </a>
+                            <a class="hebergement_carte" href="#" >
+                                Hôtel Les mouettes Nuit à partir de 76&euro;
+                            </a>
+                            <a class="hebergement_carte" href="#">
+                                Hôtel de la mer Nuit à partir de 46&euro;
+                            </a>
+                            <a class="hebergement_carte"  href="#">
+                                Auberge Le panier Nuit à partir de 23&euro;
+                            </a>
+                            <a class="hebergement_carte" href="#">
+                                Hôtel chez Amina Nuit à partir de 96&euro;
+                            </a>
+                            <a href="#">
+                                Afficher plus 
+                            </a>
                     </div>
                 </article>
                 <aside>
                     <div id="populaires">
                         <h1>Les plus populaires </h1> 
-                        <p> Hôtel Le soleil du matin Nuit à partir de 128&euro;
-                            Au coeur de l'eau Chambres d'hôtes Nuit à partir de 71&euro;
-                            Hôtel Tout bleu et Blanc Nuit à partir de 68&euro; 
+                            <a class="populaires_carte" href="#" >
+                                Hôtel Le soleil du matin Nuit à partir de 128&euro;
+                            </a>
+                            <a class="populaires_carte" href="#" >
+                                Au coeur de l'eau Chambres d'hôtes Nuit à partir de 71&euro;
+                            </a>
+                            <a class="populaires_carte" href="#" >
+                                Hôtel Tout bleu et Blanc Nuit à partir de 68&euro; 
+                            </a>
                         </p>
                     </div>
                 </aside>
                 <article>
                     <div id="Activites">
                         <h1>Activités à marseille</h1>
-                        <p> Vieux port Fort de Pomègues
+                        <a class="activites_carte" href="#" >
+                            Vieux port Fort de Pomègues
+                        </a>
+                        <a class="activites_carte" href="#" >
                             îles du Frioul 
+                        </a>
+                        <a class="activites_carte" href="#" >
                             Parc National des Calanques
+                        </a>
+                        <a class="activites_carte" href="#" >
                             Notre-Dame-de-la-Garde Parc Longchamp
-                        </p>
+                         </a>
                     </div>
                 </article>
             </section>    
@@ -105,7 +124,7 @@
                         </li>
                     </ul>
                 </div>
-                <div id="Nos hebergements ligne">
+                <div id="Nos_hebergements_ligne">
                     <ul>
                         <li>
                             Nos hébergement 
@@ -118,7 +137,7 @@
                         </li>
                     </ul>
                 </div>
-                <div id="Assistance ligne">
+                <div id="Assistance_ligne">
                     <ul>
                         <li>
                             Assistance
