@@ -941,7 +941,7 @@ footer
 }
 #colomnes_footer
 {
-    display: block;
+    display: flex;
     flex-direction: column;
     padding: 2rem;
 } 
@@ -956,7 +956,7 @@ footer
 /* recherche tablette */
 .article_1{
 
-    display: flex;
+    display: block;
     max-height: 650px;
     padding-right: 5.376%;
     padding-left: 5.376%;
