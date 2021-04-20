@@ -956,7 +956,7 @@ footer
 /* recherche tablette */
 .article_1{
 
-    display: block;
+    display: flex;
     max-height: 650px;
     padding-right: 5.376%;
     padding-left: 5.376%;
