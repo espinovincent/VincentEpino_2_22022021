@@ -933,7 +933,6 @@ footer
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    max-height: 500px;
     margin-top: 50px;
 }
 .footer_colum_titre{
